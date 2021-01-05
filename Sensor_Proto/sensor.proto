@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+message Data {
+    required string SensorID = 1;
+    required string ChannelID = 2;
+    required int32 Status = 3; 
+    // should contain around 100 Measurements
+    // Maybe the data can represent FFT Values or ADC Measurements
+    repeated int32 Value = 4;
+}

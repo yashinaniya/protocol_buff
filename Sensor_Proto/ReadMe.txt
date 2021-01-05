@@ -1,0 +1,1 @@
+This project is build for encoding sensor.proto file and implemented on Arduino micro
